@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_android">Hello Android</string>
+    <string name="hello_android_in_dashboard">Hello Android In Dashboard</string>
+    <string name="next_activity">Next Activity</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="log_in_screen">Log In Screen</string>
+    <string name="email">Email(rahul123@gmail.com)</string>
+    <string name="email_valid_characters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-_+~.@</string>
+    <string name="greeting_screen">Greeting Screen</string>
+    <string name="hello_dear">Hello dear,</string>
+    <string name="demo_email">john123@gmail.com</string>
+    <string name="log_out">Log Out</string>
+    <string name="empty_string" />
+
+
+    <string name="preference_name">Log In Preference</string>
+    <string name="remember_me">Remember me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">DashBoard Fragment</string>
+    <string name="log_out_fragment">Log Out Fragment</string>
+    <string name="move_to_log_out">Move to Log Out</string>
+    <string name="previous">Previous</string>
+</resources>
