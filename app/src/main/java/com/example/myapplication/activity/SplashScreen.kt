@@ -1,4 +1,4 @@
-package com.example.myapplication.splash
+package com.example.myapplication.activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -8,8 +8,6 @@ import android.os.Looper
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.R
-import com.example.myapplication.activity.DashBoardActivity
-import com.example.myapplication.activity.LogInActivity
 import com.example.myapplication.util.Constant
 import com.example.myapplication.util.SessionManager
 

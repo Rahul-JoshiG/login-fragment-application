@@ -16,7 +16,6 @@ class LogInActivity : AppCompatActivity() {
     private lateinit var mBinding: ActivityLoginBinding
     private var mEmailString: String = ""
     private var mPasswordString: String = ""
-    private val mBundle = Bundle()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -75,10 +74,11 @@ class LogInActivity : AppCompatActivity() {
     }
 
     private fun navigateToDashBoardActivity() {
+        val bundle = Bundle()
         val intent = Intent(this, DashBoardActivity::class.java)
-        mBundle.putString(Constant.Keys.EMAIL_KEY, mEmailString)
-        mBundle.putString(Constant.Keys.PASSWORD_KEY, mPasswordString)
-        intent.putExtras(mBundle)
+        bundle.putString(Constant.Keys.EMAIL_KEY, mEmailString)
+        bundle.putString(Constant.Keys.PASSWORD_KEY, mPasswordString)
+        intent.putExtras(bundle)
         startActivity(intent)
     }
 

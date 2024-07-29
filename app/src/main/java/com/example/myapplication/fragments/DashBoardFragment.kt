@@ -46,7 +46,6 @@ class DashBoardFragment :
     }
 
     private fun receiveAndSetData() {
-        SessionManager.initPreference(requireContext())
         var email = arguments?.getString(Constant.Keys.EMAIL_KEY)
         if (email != null) {
             SessionManager.putString(Constant.Keys.EMAIL_KEY_IN_FRAGMENT, email)
